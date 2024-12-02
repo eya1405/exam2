@@ -1,0 +1,117 @@
+    1  ps
+    2  ps aux | grep init
+    3  ps aux
+    4  ps aux | grep init
+    5  cat/var/log/dmesg
+    6  pstree
+    7  runlevel
+    8  init 6
+    9  cmd
+   10  echo $path
+   11  ls
+   12  ls -l
+   13  mkdir rep1
+   14  cd rep1
+   15  pwd
+   16  cd..
+   17  cd ..
+   18  nano carnet
+   19  cat carnet
+   20  sort carnet
+   21  sort -r carnet
+   22  sort -k2 carnet
+   23  sort -r -k3 carnet
+   24  wc -l carnet 
+   25  grep wissal carnet
+   26  grep ^a carnet
+   27  wc carnet
+   28  wc -w carnet
+   29  wc -c carnet
+   30  grep wissal carnet
+   31  grep ^a carnet
+   32  grep -v wissal carnet
+   33  grep-v  ^a carnet
+   34  grep -v  ^a carnet
+   35  grep ^[a-m] carnet
+   36  grep -c  ^[a-m] carnet
+   37  cut -f1 carnet
+   38  man grep
+   39  cut -f1,3 carnet
+   40  cut -f1-3 carnet
+   41  cut -f3 carnet | sort -n
+   42  cat carnet
+   43  cut -d: carnet
+   44  cut -d: -f1 carnet
+   45  nl carnet
+   46  head -2 carnet
+   47  head carnet
+   48  tail carnet
+   49  tail -3 carnet
+   50  cp carnet carnet2
+   51  ls
+   52  cat carnet
+   53  mv carnet2 carnet3
+   54  ls
+   55  echo $?
+   56  ml
+   57  echo $?
+   58  hcat < carnet
+   59  cat < carnet
+   60  cat << carnet
+eya
+najah
+123
+dit 
+carnet
+
+   61  cat carnert
+   62  cat carnet
+   63  date
+   64  date > carnet
+   65  cat carnet
+   66  cat carnet3
+   67  cat carnet3 >> carnet
+   68  cat carnet
+   69  cat <stop> toto
+   70  cat <<stop> toto
+hello
+bonjour 
+good morning
+cat toto
+stop
+
+   71  cat toto
+   72  history
+   73  history >> lpic1
+    1  ps
+    2  ps aux | grep init
+    3  ps aux
+    4  ps aux | grep init
+    5  cat/var/log/dmesg
+    6  pstree
+    7  runlevel
+    8  init 6
+    9  cmd
+   10  ps
+   11  ps -aux
+   12  pstree
+   13  ps -aux / grep init
+   14  ps -aux /grep init
+   15  ps -aux |grep init
+   16  sleep
+   17  sleep 8
+   18  sleep 1000&
+   19  sleep 100&
+   20  firefox
+   21  sleep 500&
+   22  jobs
+   23  kill
+   24  kill -9 3747
+   25  jobs
+   26  kill -15
+   27  kill -15 5162
+   28  jobs
+   29  du
+   30  df
+   31  top
+   32  history >> lpic1
